@@ -147,7 +147,15 @@ footer p{
     text-align: center;
 
 }
-@media (max-width: 390px) {
+@media (max-width: 950px) {
+    #head {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 450px) {
     body {
         overflow-x: hidden;
     }
