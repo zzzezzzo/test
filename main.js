@@ -1,9 +1,20 @@
-$("#thumbnails img").click(function () {
-    var myImg = $(this).attr("src");
-    $("#preview img").fadeTo(500, 0.1, function () {
-        $("#preview img").attr("src", myImg);
-        $("#preview img").fadeTo(500, 1);
-    });
-});
+const swiper = new Swiper('.swiper', {
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    loop: true,
+    coverflowEffect: {
+      rotate: 30,
+      stretch: 0,
+      depth: 200,
+      modifier: 1,
+      slideShadows: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
 
 

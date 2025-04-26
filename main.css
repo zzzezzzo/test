@@ -9,10 +9,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-
-
 }
-
 #head {
     padding: 0 5%;
     display: flex;
@@ -88,51 +85,9 @@ body {
     color: green;
 }
 
-#container {
-    margin: auto;
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-around;
-
-
-}
 #head #name {
     display: flex;
 }
-
-#preview {
-    max-width: 80%;
-    height: 90vh;
-}
-
-#preview img {
-    border-radius: 10px;
-    width: 100%;
-    height: 100%;
-}
-
-
-#thumbnails img:hover {
-    transform: scale(1.1);
-}
-
-#thumbnails {
-    max-width: 30%;
-    max-height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-main {
-    margin-bottom: 20px;
-}
-#thumbnails img {
-    width: 45%;
-    height: calc(100% / 4);
-    border-radius: 10px;
-    padding: 5px;
-}
-
 img {
     cursor: pointer;
 }
@@ -158,6 +113,31 @@ img {
     margin: auto;
     border-radius: 10px;
 }
+.swiper {
+    width: 100%;
+    max-width: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 200%;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: -moz-available;
+    height: 120vh;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.3);
+  }
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    height: -moz-available;
+  }
+  .swiper-button-next, .swiper-button-prev {
+    color: #ffcc00;
+  }
 footer{
     height: 40px;
     background-color: rgba(0, 0, 0,0.5 );
