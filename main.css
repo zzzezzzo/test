@@ -115,7 +115,7 @@ img {
 }
 .swiper {
     width: 100%;
-    max-width: 500px;
+    max-width: 900px;
     padding-top: 50px;
     padding-bottom: 50px;
     height: 200%;
@@ -193,8 +193,12 @@ footer p{
         height: 50px;
         border-radius: 50%;
     }
+    .swiper{
+        width: 100%;
+        max-width: 90%;
+    }
     .swiper-slide{
-        width: 250px;
+        width: 270px;
     }
     .swiper-slide img{
         object-fit: cover;
