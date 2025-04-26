@@ -115,7 +115,7 @@ img {
 }
 .swiper {
     width: 100%;
-    max-width: 500px;
+    /* max-width: 900px; */
     padding-top: 50px;
     padding-bottom: 50px;
     height: 200%;
@@ -196,7 +196,10 @@ footer p{
         height: 50px;
         border-radius: 50%;
     }
-
+    .swiper-slide{
+        width: 240px;
+    }
+/* 
     #preview img {
         max-width: 100%;
         margin-left: 35px;
@@ -215,7 +218,7 @@ footer p{
         max-width: calc(90%  / 4);
         height: 100px;
         margin: 5px;
-    }
+    } */
 }
 hr {
     border: 2px solid wheat;
