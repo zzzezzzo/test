@@ -198,10 +198,10 @@ footer p{
         max-width: 90%;
     }
     .swiper-slide{
-        width: 270px;
+        width: 370px;
     }
     .swiper-slide img{
-        object-fit: cover;
+        object-fit: contain;
     }
 }
 hr {
