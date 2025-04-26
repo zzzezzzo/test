@@ -162,13 +162,10 @@ footer p{
     body {
         overflow-x: hidden;
     }
-
     #head #logo {
         font-size: 30px;
         font-weight: 900;
-
     }
-
     #head {
         display: flex;
         flex-wrap: wrap;
@@ -197,28 +194,13 @@ footer p{
         border-radius: 50%;
     }
     .swiper-slide{
-        width: 200px;
+        width: 100px;
     }
-/* 
-    #preview img {
-        max-width: 100%;
-        margin-left: 35px;
-    }
+    .swiper-slide img{
+        width: 100%;
 
-    #container {
-        display: block;
+        /* object-fit: cover; */
     }
-    #thumbnails {
-        margin: 20px 0;
-        max-width: 100%;
-        display: flex;
-        justify-content: space-around;
-    }
-    #thumbnails img {
-        max-width: calc(90%  / 4);
-        height: 100px;
-        margin: 5px;
-    } */
 }
 hr {
     border: 2px solid wheat;
